@@ -1,6 +1,5 @@
 BEGIN {
-    FS = ","
-    printf "Rank \tCar_id \t Year \t Make \t Model \n" > "rank.out"
+    FPAT = "([^,]*)|(\"([^\"]|\"\")+\")"
 }
 {
     if(NR>1){

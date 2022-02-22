@@ -1,6 +1,6 @@
 BEGIN {
     FS = ","
-    printf "ranking \t car_id \t year \t carmake \t car model \n" > "rank.out"
+    printf "Rank \tCar_id \t Year \t Make \t Model \n" > "rank.out"
 }
 {
     if(NR>1){

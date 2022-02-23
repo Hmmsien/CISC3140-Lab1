@@ -1,5 +1,6 @@
 BEGIN {
     FPAT = "([^,]*)|(\"([^\"]|\"\")+\")"
+	printf "Total \t\t ID \t\t Year \t\t Make \t\t Model \n" > "rank.out"
 }
 {
     if(NR>1){
